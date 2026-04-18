@@ -1,0 +1,32 @@
+{
+    "启动游戏": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "进入世界"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "contact": 0
+            }
+        },
+        "timeout": 1200000,
+        "next": [
+            "识别完成登录"
+        ]
+    },
+    "识别完成登录": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1776475612319.png"
+                ]
+            }
+        }
+    }
+}

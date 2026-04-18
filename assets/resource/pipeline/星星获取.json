@@ -1,0 +1,68 @@
+{
+    "ESC主菜单": {
+        "action": {
+            "type": "ClickKey",
+            "param": {
+                "key": [
+                    27
+                ]
+            }
+        },
+        "next": [
+            "识别是否esc菜单"
+        ]
+    },
+    "识别是否esc菜单": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    267,
+                    645,
+                    65,
+                    57
+                ],
+                "template": [
+                    "template_1776543092613.png"
+                ]
+            }
+        },
+        "next": [
+            "左键点击"
+        ]
+    },
+    "左键点击": {
+        "pre_delay": 1000,
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    100,
+                    178,
+                    20,
+                    18
+                ],
+                "contact": 0
+            }
+        }
+    },
+    "识别是否主页面": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    25,
+                    12,
+                    263,
+                    70
+                ],
+                "template": [
+                    "template_1776475612319.png"
+                ]
+            }
+        },
+        "next": [
+            "ESC主菜单"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "file_config": {
+        "prefix": "",
+        "filePath": "E:\\MaaRKW\\assets\\resource\\pipeline\\主页登录.json",
+        "separatedConfigPath": "E:\\MaaRKW\\assets\\resource\\pipeline\\.主页登录.mpe.json",
+        "lastSyncTime": 1776538668589,
+        "isModifiedExternally": false,
+        "savedViewport": {
+            "x": 1190,
+            "y": 464,
+            "zoom": 1.44
+        },
+        "filename": "主页登录",
+        "version": "v1.4.1"
+    },
+    "node_configs": {
+        "启动游戏": {
+            "position": {
+                "x": -204,
+                "y": -3
+            }
+        },
+        "识别完成登录": {
+            "position": {
+                "x": 110,
+                "y": -33
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "file_config": {
+        "prefix": "",
+        "filePath": "E:\\MaaRKW\\assets\\resource\\pipeline\\星星获取.json",
+        "separatedConfigPath": "E:\\MaaRKW\\assets\\resource\\pipeline\\.星星获取.mpe.json",
+        "lastSyncTime": 1776539061870,
+        "savedViewport": {
+            "x": 1000,
+            "y": 571,
+            "zoom": 1.44
+        },
+        "filename": "星星获取",
+        "version": "v1.4.1"
+    },
+    "node_configs": {
+        "ESC主菜单": {
+            "position": {
+                "x": -194,
+                "y": -96
+            }
+        },
+        "新建节点5": {
+            "position": {
+                "x": 445,
+                "y": -90
+            }
+        },
+        "获取星星": {
+            "position": {
+                "x": 142,
+                "y": -104
+            }
+        }
+    }
+}
